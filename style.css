@@ -330,6 +330,9 @@ footer {
   .landing-title h2 {
     text-align: center;
   }
+  .inner-box {
+    padding: 50px 10px;
+  }
 }
 
 @media (max-width: 380px) {
