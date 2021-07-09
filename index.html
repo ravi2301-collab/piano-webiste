@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Web Page</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="awsome/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2> Piano </h2>
+        </div>
+        <ul class="navigation">
+            <li onclick="toggle()" ><a href="#landing"> Home</a></li>
+            <li onclick="toggle()"><a href="#products"> Product</a></li>
+            <li onclick="toggle()"><a href="#contact"> Contact</a></li>
+        </ul>
+        <div class="menu" onclick="toggle()"></div>
+    </header>
+
+    <section class="landing" id="landing">
+        <div class="overlay">
+           <div class="landing-title">
+                <h2> Best Piano Now Available</h2>
+                <div class="landing-title-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Maxime necessitatibus quia, odio reprehenderit aliquam voluptas 
+                        similique.
+                    </p>
+                </div>
+                <a href="#"> Learn More</a>
+           </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1> About Us</h1>
+        <div class="row py-5">
+            <div class="col-lg-8">
+                <div class="box">
+                    <div class="inner-box">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi incidunt 
+                            delectus aliquam, rem totam nihil. Voluptas, cumque magnam aliquid, repr
+                            ehenderit praesentium placeat doloribus doloremque porro, velit dicta earum
+                             ipsam minus odio natus! Sed fugiat vel ratione dolor perspiciatis? Tenetur 
+                             fugit fugiat excepturi mollitia velit eligendi sint voluptatibus tempora quam quas!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 image">
+                <img src="images/piano2.jpeg"  class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <h1>Features</h1>
+        <div class="py-5">
+         <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/p1.jpeg" alt="">
+                    <h4>Detailed</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, itaque!</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/p2.jpeg" alt="">
+                    <h4>Quality</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, itaque!</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/p3.jpeg" alt="">
+                    <h4>Brand</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, itaque!</p>
+                </div>
+            </div>
+         </div>
+        </div>
+    </section>
+
+    <section class="buy">
+        <h1> Best Piano Available Now</h1>
+        <button> Buy Now</button>
+    </section>
+
+    <section id="products" class="products">
+        <h1>Our Products</h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <img src="images/product1.jpeg" alt="">
+                </div>
+                <div class="flex  col-md-6 mb-5">
+                    <h2>Grand Piano</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Maiores veniam eos in voluptatum ex necessitatibus doloribus
+                         dicta mollitia, quasi commodi.
+                    </p>
+                </div>
+
+                <div class="flex col-md-6 mb-5">
+                    <h2>Black Model</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Maiores veniam eos in voluptatum ex necessitatibus doloribus
+                         dicta mollitia, quasi commodi.
+                    </p>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <img src="images/product3.jpeg" alt="">
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <img src="images/product2.jpeg" alt="">
+                </div>
+                <div class="flex  col-md-6 mb-5">
+                    <h2>Electric Model</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Maiores veniam eos in voluptatum ex necessitatibus doloribus
+                         dicta mollitia, quasi commodi.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="location" id="contact">
+        <div class="row">
+            <div class="col-md-12  justify-content-center py-5">
+                <div class="flex">
+                    <i class="fas fa-location-arrow fa-2x"></i>
+                    <h1>Location</h1>
+                    <h2>123 LittleStreet  USA</h2>
+                    <br/>
+                    <i class="fas fa-phone-square fa-2x"></i>
+                    <h1>Phone</h1>
+                    <h2>123-456-789-2155</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light">
+        <h2> Copyright 2020 &copy; </h2>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
